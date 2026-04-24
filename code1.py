@@ -1163,7 +1163,7 @@ control_cursor=0
 control_live_line=0
 control_cursor_live_line=0
 control_live_line_option=0
-# Draw the sine wave with defined boundaries first time
+# TO Do -- Draw the sine wave with defined boundaries first time
 
 
 # ***************************************************************************
@@ -1215,6 +1215,6 @@ yellow_polygon_button.place(x = x_button_location, y = y_button_location+y_butto
 
 tricircle= Button(canvas,text="Tri/Circle", command=draw_circle, height=1, width=8, bg="yellow",compound=LEFT)
 tricircle.place(x = x_button_location, y = y_button_location+y_button_space*14)
-
+#TO DO **** create functions to draw shapes in different colors*****
 canvas.pack()
 root.mainloop()
